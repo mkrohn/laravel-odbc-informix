@@ -3,7 +3,7 @@ This integration allows the use of <b>odbc_*</b> php function with Laravel frame
 It emulates PDO class used by Laravel.
 
 ### # How to install
-> `composer require abram/laravel-odbc` To add source in your project
+> `composer require mkrohn/laravel-odbc-informix` To add source in your project
 
 ### # Usage Instructions
 It's very simple to configure:
