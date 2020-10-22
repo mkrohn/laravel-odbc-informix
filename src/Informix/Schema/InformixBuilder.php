@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Classes\Database\Informix\Schema;
+namespace Abram\Odbc\Informix\Schema;
 
 use Illuminate\Database\Schema\Builder as BaseSchemaBuilder;
 
@@ -13,7 +13,7 @@ class InformixBuilder extends BaseSchemaBuilder
      */
     public function dropAllTables()
     {
-        @trigger_error("Si realmente desea esto debe comentar esta linea");
+        @trigger_error("If you really want this comment this line");
 
         $this->connection->statement($this->grammar->compileDropAllForeignKeys());
 
