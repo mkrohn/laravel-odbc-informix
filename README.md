@@ -66,10 +66,10 @@ To use another class instead default one you can update your connection in:
     'username' => 'username',
     'password' => 'password',
     'options' => [
-        'processor' => Illuminate\Database\Query\Processors\Processor::class,   //default
+        'processor' => Mkrohn\Odbc\Informix\Query\Processors\Processor::class,   //default is  lluminate\Database\Query\Processors\Processor::class
         'grammar' => [
-            'query' => Illuminate\Database\Query\Grammars\Grammar::class,       //default
-            'schema' => Illuminate\Database\Schema\Grammars\Grammar::class      //default
+            'query' => Mkrohn\Odbc\Informix\Query\Grammars\Grammar::class,       //default is Illuminate\Database\Query\Grammars\Grammar::class
+            'schema' => Mkrohn\Odbc\Informix\Schema\Grammars\Grammar::class      //default is Illuminate\Database\Schema\Grammars\Grammar::class
         ]
     ]
 ]
