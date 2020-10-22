@@ -62,6 +62,7 @@ To use another class instead default one you can update your connection in:
     'driver' => 'odbc',
     'dsn' => 'OdbcConnectionName',
     'database' => 'DatabaseName',
+    'odbc' => true,
     'host' => '127.0.0.1',
     'username' => 'username',
     'password' => 'password',
