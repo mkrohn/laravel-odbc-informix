@@ -1,8 +1,8 @@
 {
-	"name": "mkrohn/laravel-odbc",
-	"description": "ODBC integration for Laravel framework ",
+	"name": "mkrohn/laravel-odbc-informix",
+	"description": "ODBC informix specific integration for Laravel framework ",
 	"type": "library",
-	"homepage": "https://github.com/mkrohn/laravel-odbc",
+	"homepage": "https://github.com/mkrohn/laravel-odbc-informix",
 	"authors": [
 		{
 			"name": "Martin Krohn",
