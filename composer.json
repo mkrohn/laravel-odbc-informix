@@ -1,6 +1,6 @@
 {
 	"name": "mkrohn/laravel-odbc-informix",
-	"description": "ODBC informix specific integration for Laravel framework ",
+	"description": "ODBC informix specific integration for Laravel framework.",
 	"type": "library",
 	"homepage": "https://github.com/mkrohn/laravel-odbc-informix",
 	"authors": [
@@ -24,7 +24,7 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"Abram\\Odbc\\ODBCServiceProvider"
+				"Mkrohn\\Odbc\\ODBCServiceProvider"
 			]
         },
         "branch-alias": {

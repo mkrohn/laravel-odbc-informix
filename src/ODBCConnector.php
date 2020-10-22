@@ -1,12 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Andrea
- * Date: 20/02/2018
- * Time: 15:50
- */
 
-namespace Abram\Odbc;
+namespace Mkrohn\Odbc;
 
 use Illuminate\Database\Connectors\Connector;
 use Illuminate\Database\Connectors\ConnectorInterface;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Abram\Odbc\Informix\Query\Processors;
+namespace Mkrohn\Odbc\Informix\Query\Processors;
 
 use Illuminate\Database\Query\Processors\Processor as BaseQueryProcessor;
 

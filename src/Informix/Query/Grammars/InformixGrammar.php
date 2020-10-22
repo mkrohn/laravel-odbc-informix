@@ -1,6 +1,6 @@
 <?php
 
-namespace Abram\Odbc\Informix\Query\Grammars;
+namespace Mkrohn\Odbc\Informix\Query\Grammars;
 
 use Illuminate\Database\Query\Grammars\Grammar as BaseQueryGrammar;
 use Illuminate\Support\Arr;

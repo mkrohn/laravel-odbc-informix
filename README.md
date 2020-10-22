@@ -24,7 +24,7 @@ It's very simple to configure:
 ```PHP
 'providers' => [
   ...
-  Abram\Odbc\ODBCServiceProvider::class
+  Mkrohn\Odbc\ODBCServiceProvider::class
 ]
 ```
 
@@ -32,10 +32,10 @@ It's very simple to configure:
 You can use Laravel, Eloquent ORM and other Illuminate's components as usual.
 ```PHP
 # Facade
-$books = DB::connection('odbc-connection-name')->table('books')->where('Author', 'Abram Andrea')->get();
+$books = DB::connection('odbc-connection-name')->table('books')->where...;
 
 # ORM
-$books = Book::where('Author', 'Abram Andrea')->get();
+$books = Book::where...->get();
 ```
 
 ### # Custom getLastInsertId() function

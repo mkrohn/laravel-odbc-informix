@@ -1,6 +1,6 @@
 <?php
 
-namespace Abram\Odbc\Informix\Schema;
+namespace Mkrohn\Odbc\Informix\Schema;
 
 use Illuminate\Database\Schema\Builder as BaseSchemaBuilder;
 

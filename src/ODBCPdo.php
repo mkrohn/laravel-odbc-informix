@@ -1,12 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Andrea
- * Date: 23/02/2018
- * Time: 17:50
- */
 
-namespace Abram\Odbc;
+namespace Mkrohn\Odbc;
 
 use Exception;
 use PDO;

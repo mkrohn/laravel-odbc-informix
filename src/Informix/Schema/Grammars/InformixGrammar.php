@@ -1,6 +1,6 @@
 <?php
 
-namespace Abram\Odbc\Informix\Schema\Grammars;
+namespace Mkrohn\Odbc\Informix\Schema\Grammars;
 
 use Illuminate\Database\Schema\Grammars\Grammar as BaseSchemaGrammar;
 

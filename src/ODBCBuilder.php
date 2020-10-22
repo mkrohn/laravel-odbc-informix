@@ -1,12 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Andrea
- * Date: 21/03/2018
- * Time: 16:30
- */
 
-namespace Abram\Odbc;
+namespace Mkrohn\Odbc;
 
 use App\BaseModel;
 use Illuminate\Database\Query\Builder;
