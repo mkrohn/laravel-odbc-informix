@@ -26,11 +26,9 @@
 			"providers": [
 				"Abram\\Odbc\\ODBCServiceProvider"
 			]
-		},
+        },
         "branch-alias": {
-            "dev-master": "1.0"
+            "dev": "1.0"
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+	}
 }
