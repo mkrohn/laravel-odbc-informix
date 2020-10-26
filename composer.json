@@ -1,0 +1,36 @@
+{
+	"name": "mkrohn/laravel-odbc-informix",
+	"description": "ODBC informix specific integration for Laravel framework.",
+	"type": "library",
+	"homepage": "https://github.com/mkrohn/laravel-odbc-informix",
+	"authors": [
+		{
+			"name": "Martin Krohn",
+			"email": "github@krohn.com.ar",
+			"homepage": "https://github.com/mkrohn",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": "^5.3.3 || >=7.0",
+		"illuminate/database": "~5.1 || >= 6.0",
+		"illuminate/support": "~5.1 || >= 6.0"
+	},
+	"autoload": {
+		"classmap": [
+			"src"
+		]
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Mkrohn\\Odbc\\ODBCServiceProvider"
+			]
+        },
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+	},
+	"minimum-stability": "dev",
+    "prefer-stable": true
+}
