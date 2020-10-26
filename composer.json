@@ -3,6 +3,7 @@
 	"description": "ODBC informix specific integration for Laravel framework.",
 	"type": "library",
 	"homepage": "https://github.com/mkrohn/laravel-odbc-informix",
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "Martin Krohn",
@@ -10,7 +11,7 @@
 			"homepage": "https://github.com/mkrohn",
 			"role": "Developer"
 		}
-	],
+	],	
 	"require": {
 		"php": "^5.3.3 || >=7.0",
 		"illuminate/database": "~5.1 || >= 6.0",
@@ -32,5 +33,11 @@
         }
 	},
 	"minimum-stability": "dev",
-    "prefer-stable": true
+	"prefer-stable": true,
+	"funding": [
+        {
+            "type": "other",
+            "url": "https://paypal.me/habitech"
+        }
+    ]
 }
