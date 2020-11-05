@@ -84,7 +84,30 @@ class ODBCPdoStatement extends PDOStatement
 
     public function fetch($option = null, $ignore = null, $ignore2 = null)
     {
-        return odbc_fetch_array($this->statement);
+        $rec = odbc_fetch_array($this->statement);
+
+        if ($rec)
+        {
+            // odbc_fetch_array has a bounds checking bug with utf8 strings, so we sanitize it:
+            $this->sanitize_array($rec);
+        }
+
+        return $rec;
+    }
+
+    private function sanitize_array(&$rec)
+    {
+        foreach($rec as $key => $value)
+        {
+
+            $pos = mb_strpos($value, chr(0));
+
+            if ($pos)
+            {
+                $value = substr($value, 0, $pos + 1);
+                $rec[$key] = $value;
+            }
+        }
     }
 
     public function fetch_into($records)
