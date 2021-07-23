@@ -61,9 +61,9 @@ class ODBCPdoStatement extends PDOStatement
 
         if (strlen($this->query) > 17)
         {
-            if (strtolower(substr($this->query, 0, 17)) == 'execute procedure')
+            if ((substr($this->query, 0, 17)) == 'EXECUTE PROCEDURE')
             {
-                // MK: if it's a stored procedure, column names may not be included
+                // MK: if it's a stored procedure (in uppercase), column names may not be included
                 $stored_proc = true;
             }
         }
