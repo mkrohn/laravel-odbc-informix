@@ -100,12 +100,12 @@ class ODBCPdoStatement extends PDOStatement
         foreach($rec as $key => $value)
         {
 
-            $pos = mb_strpos($value, chr(0));
+            $pos = strpos($value, chr(0));
 
             if ($pos)
             {
                 // $valueOrig = $value;
-                $value = mb_substr($value, 0, $pos);
+                $value = substr($value, 0, $pos);
                 // \Log::info($value . "|" . $valueOrig . "|");
                 $rec[$key] = $value;
             }
