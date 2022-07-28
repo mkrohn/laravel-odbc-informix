@@ -104,7 +104,9 @@ class ODBCPdoStatement extends PDOStatement
 
             if ($pos)
             {
-                $value = substr($value, 0, $pos + 1);
+                // $valueOrig = $value;
+                $value = mb_substr($value, 0, $pos);
+                // \Log::info($value . "|" . $valueOrig . "|");
                 $rec[$key] = $value;
             }
         }
